@@ -19,3 +19,10 @@ body {
   footer p {
     background-color: yellow;
   }
+  /* 
+    Direct Descendent Selectors: Selects every element on the page of the latter name that is a DIRECT child of the former name.
+  */
+  footer>p {
+    background-color: orange
+  }
+  © 2020 GitHub, Inc.
