@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Columns | Warren Uhrich</title>
+
+    <!-- Set the character set, so the browser knows which character set should be loaded and valid for this webpage. -->
+    <meta charset="UTF-8">
+
+    <!-- For modern responsive web development: -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Meta Data: -->
+    <meta name="description" content="A website about Warren Uhrich.">
+    <meta name="author" content="Warren Uhrich">
+
+    <!-- Style(s): -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <!-- Script(s): -->
+    <!-- defer attribute will cause this script to wait until the body is loaded before executing (important for DOM / element manipulation by scripts) -->
+    <script src="js/scripts.js" type="text/javascript" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Columns</h1>
+      <nav><!-- Navigation. -->
+        <h2>Navigation</h2>
+        <ul>
+          <li><a href="index.html">Home</a><!-- Anchor element (hyperlink.) --></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Sample Column Layouts</h2>
+    </main>
+    <footer>
+      <h2>Footer</h2>
+      <p>Thanks for visiting my page!</p>
+      <!-- Div is a non-semantic block-level styling element. -->
+      <div>
+        <p>
+          <!-- Span is a non-semantic inline element. -->
+
+          <!-- In our index page, our copyright is inside of a div, meaning it does not satisfy "body>footer>p". Only a direct descendent of footer
+          will satisfy that selector. Therefore it is yellow.-->
+          &copy; Copyright 2020 <span>TECHCareers</span>;
+          All Rights Reserved
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
